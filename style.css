@@ -49,10 +49,10 @@ button:hover{
 		width: 300px;
 	}
 	span.forget-link {
-       display: block;
-       float: none;
+    	display: block;
+		float: none;
     }
-    .cancel-btn {
-       width: 100%;
+	.cancel-btn {
+		width: 100%;
     }
 }
