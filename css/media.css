@@ -1,0 +1,12 @@
+@media (min-width: 300px) and (max-width: 410px) {
+	form{
+		width: 300px;
+	}
+	span.forget-link {
+    	display: block;
+		float: none;
+    }
+	.cancel-btn {
+		width: 100%;
+    }
+}
