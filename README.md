@@ -47,8 +47,15 @@ The media queries for this page uses 5 breakpoints from Bootstrap framework - 32
 After the changing the width of the device's screen, the form changes own width, "Cancel" button changes width to 100% of the form width, "Forgot a password?" link changes position and situated under the "Cancel" button.
 
 Validation
-validation.js script provides validation of user login and password. When user clicks on the login button in the absence of data entry in the fields for login and password, alert modal window is activated with a warning about the need to enter login and/or password.
+validation.js script provides validation of user login and password. 
+When user clicks on the login button in the absence of data entry in the fields for login and password, alert modal window is activated with a warning about the need to enter login and/or password.
 
 ![alt empty inputs](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/empty_inputs.png)
 ![alt empty password](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/empty_password.png)
 
+After entering the correct username and password, alert modal window is activated with a greeting text.
+
+![alt valid](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/valid_user.png)
+
+If user entered incorrect username and/or password, alert modal window is activated with warning text.
+![alt not valid](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/not_valid_user.png)
