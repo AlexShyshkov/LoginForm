@@ -10,14 +10,14 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<label for="uesername"><b>Username</b></label>
+				<label for="username"><b>Username</b></label>
 				<input id="username" class="inputs" type="text" placeholder="Enter your name" name="username" required>
 				<label for="password"><b>Password</b></label>
 				<input id="password" class="inputs" type="password" placeholder="Enter your password" name="password" required>
 				<input id="login" class="content-login" type="button" value="Login">
 				<input id="registration" class="create-new-account-btn" type="button" value="Create new account">
 				<label>
-					<input type="checkbox" checked="checked" name="remember">Remember me
+					<input id="remember-me" type="checkbox" name="remember">Remember me
 				</label>
 			</div>
 			<div class="content">
@@ -26,5 +26,6 @@
 			</div>
 		</div>
 		<script src="js/validation.js"></script>
+		<script src="js/storage.js"></script>
 	</body>
 </html>
