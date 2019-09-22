@@ -11,6 +11,7 @@ css                |Folder with CSS styles
    media.css       |CSS styles for supporting page on mobile devices
 js                 |Folder with page scripts
    validation.js   |User validation script
+   storage.js      |Username saving in local storage script
 source             |Folder with project screenshots
 
 ----------------------------------------
@@ -59,3 +60,5 @@ After entering the correct username and password, alert modal window is activate
 
 If user entered incorrect username and/or password, alert modal window is activated with warning text.
 ![alt not valid](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/not_valid_user.png)
+
+![alt storage](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/local_storage.png){:height="150px" width="200px"}
