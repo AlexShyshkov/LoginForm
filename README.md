@@ -8,6 +8,7 @@
 index.html         |File with HTML markup
 css                |Folder with CSS styles
   - style.css      |Page element's CSS styles
+-------------------|-------------------
   - media.css      |CSS styles for supporting page on mobile devices
 js                 |Folder with page scripts
   - validation.js  |User validation script
