@@ -61,4 +61,5 @@ After entering the correct username and password, alert modal window is activate
 If user entered incorrect username and/or password, alert modal window is activated with warning text.
 ![alt not valid](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/not_valid_user.png)
 
-![alt storage](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/local_storage.png){height=150px width=200px}.
+If user checked in "Remember me" checkbox and set username in "Username" input, username is saved to the browser LocalStorage. After updating the page username doesn't deleted from username input. Password is not saved for security reasons.
+![alt storage](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/local_storage.png)
