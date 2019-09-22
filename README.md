@@ -38,7 +38,7 @@ Interface contains:
 
 All buttons change opacity when user hover over. For example, user hover over the login button and button change opacity.
 
-![alt hover](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/hove_button.png)
+![alt hover](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/hover_button.png)
 
 Page supported on mobile devices. CSS-file 'media.css' contains breakpoints, what change form width after the changing screen width.
 
