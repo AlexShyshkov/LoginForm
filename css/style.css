@@ -1,4 +1,4 @@
-form{
+.container{
 	border: 2px solid #99ccff;
 	width: 400px;
 	background-color: #66ffff;
@@ -15,7 +15,9 @@ form{
 	border: 1px solid black;
 	box-sizing: border-box;
 }
-button{
+.content-login,
+.create-new-account-btn,
+.cancel-btn{
 	background-color: #00cc00;
 	color: white;
 	padding: 14px 20px;
