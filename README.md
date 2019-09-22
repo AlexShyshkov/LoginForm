@@ -45,3 +45,10 @@ Page supported on mobile devices. CSS-file 'media.css' contains breakpoints, wha
 
 The media queries for this page uses 5 breakpoints from Bootstrap framework - 320px, 544px, 768px, 992px, 1200px.
 After the changing the width of the device's screen, the form changes own width, "Cancel" button changes width to 100% of the form width, "Forgot a password?" link changes position and situated under the "Cancel" button.
+
+Validation
+validation.js script provides validation of user login and password. When user clicks on the login button in the absence of data entry in the fields for login and password, alert modal window is activated with a warning about the need to enter login and/or password.
+
+![alt empty inputs](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/empty_inputs.png)
+![alt empty password](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/empty_password.png)
+
