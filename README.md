@@ -61,4 +61,4 @@ After entering the correct username and password, alert modal window is activate
 If user entered incorrect username and/or password, alert modal window is activated with warning text.
 ![alt not valid](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/not_valid_user.png)
 
-![alt storage](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/local_storage.png){:height="150px" width="200px"}
+![alt storage](https://github.com/AlexShyshkov/LoginForm/blob/master/source/screenshots/local_storage.png){:height="150px" width="200px"}.
