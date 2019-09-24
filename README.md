@@ -18,9 +18,10 @@ source             |Folder with project screenshots
 ----------------------------------------
 Built with
 ----------------------------------------
-Sublime text - text editor for code, markup. 
-Running in the MS Windows enviroment.
-Open Server.
+
+- Sublime text - text editor for code, markup; 
+- Running in the MS Windows enviroment;
+- Open Server.
 
 ----------------------------------------
 
