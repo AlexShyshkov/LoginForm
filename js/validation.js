@@ -3,18 +3,7 @@
 window.addEventListener('DOMContentLoaded', function() {
 	let	login = document.getElementById('login');
 
-	let programUsers = [
-		{
-			username: "user123",
-			password: "12345"
-		},
-		{
-			username: "night-elf",
-			password: "second_password"
-		}
-	]
-
-	function checkUser(userDataBase){
+	function checkUser(userData){
 		let username = document.getElementById('username').value,
 			password = document.getElementById('password').value;
 
@@ -26,8 +15,8 @@ window.addEventListener('DOMContentLoaded', function() {
 			return false;
 		} 
 		
-		for (let i = 0; i < userDataBase.length; i++){
-			if(username == userDataBase[i].username && password == userDataBase[i].password){
+		for (let i = 0; i < userData.length; i++){
+			if(username == userData[i].username && password == userData[i].password){
 				alert("Welcome!");
 				break;
 			} else {
@@ -38,6 +27,12 @@ window.addEventListener('DOMContentLoaded', function() {
 	}
 
 	login.addEventListener('click', function(){
-		checkUser(programUsers)
+		let request = new XMLHttpRequest();
+		request.open('GET', 'js/users.json');
+		request.onload = function(){
+			let user = JSON.parse(this.response);
+			checkUser(user);
+		};
+		request.send();	
 	});
 })
